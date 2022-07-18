@@ -20,7 +20,7 @@ function stateClass:set(n : any)
 	end
 end
 
-function stateClass:setInATableState(Key, value)
+function stateClass:setKey(Key, value)
 	local statewithKey = self._value[Key]
 	if self._typeprotection and (type(self._value) ~= "table") or type(value) ~= type(statewithKey)  then
 		error(string.format("Type protection: state is %s, oldValue is %s, value is %s ", type(self._value), type(statewithKey), type(value) ))
@@ -43,7 +43,7 @@ function stateClass:rawSet(n : any)
 	self._value = n
 end
 
-function stateClass:rawSetInATableState(Key, Value)
+function stateClass:rawSetKey(Key, Value)
 	self._value[Key] = Value
 end
 
