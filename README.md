@@ -17,7 +17,8 @@ StateX offers the following:
 What features StateX will offer in the future:
 1. Allow listening to certain keys in a table
 
-# Why not just
+# Whats stopping me from just changing a variable and calling a function when...?
+it unlocks the potential for your projects to become much more powerful and declarative. It gives a clear structure to your projects (better organization), and can make things much easier to work with. Additionally, using modules, you can share the state between scripts.
 
 # Reactive State Management
 
