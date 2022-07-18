@@ -17,6 +17,8 @@ StateX offers the following:
 What features StateX will offer in the future:
 1. Allow listening to certain keys in a table
 
+# Why not just
+
 # Reactive State Management
 
 One of the truly unique features about this **stand-alone** state management library is that you can efficiently manage states reactively. To acheive this, StateX offers a reactiveState class which it's constructor accepts a function to call whenever you use it, or in other words, it performs a computation whenever needed rather than updating data once a signal is fired.
