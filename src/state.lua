@@ -57,6 +57,6 @@ function stateClass:ListenToStateChanges(fn : (isState : boolean, Key : any ,old
 end
 
 
-return function(Value : number, TypeProtection : boolean)
+return function(Value : any, TypeProtection : boolean)
 	return setmetatable({_connections = {},_value = Value, _typeprotection = TypeProtection}, metaClass)
 end
