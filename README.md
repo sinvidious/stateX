@@ -1,9 +1,9 @@
 <img src = "https://user-images.githubusercontent.com/94554616/179428020-b0ba6c1f-19b1-40de-b65f-29b497a07303.png" width = 450>
 
-StateX is a powerful, yet easy state management solution. It makes use of the reactive state management and general state management to let your project manages states efficiently.
+StateX is a powerful, yet easy state management solution. It makes use of the reactive state management and static state management to let your project manages states efficiently.
 
 # Why use it over other alternatives?
-StateX is a simple, yet a powerful state management library that makes use of reactive state management and general state management to achieve maximum efficiency and customizability, making it easier and simpler to use while acheiving acceptable speed results. In other words, StateX is a lot easier to start with and to maintain while providing truly reactive states as well.
+StateX is a simple, yet a powerful state management library that makes use of reactive state management and static state management to achieve maximum efficiency and customizability, making it easier and simpler to use while acheiving acceptable speed results. In other words, StateX is a lot easier to start with and to maintain while providing truly reactive states as well.
 
 # What features this library offers?
 StateX offers the following:
@@ -12,10 +12,9 @@ StateX offers the following:
 3. Type protection which allows you to track down bugs before shipping them to production
 4. Reactive States to allow you build up bonds between states reactively
 5. reactive/States are shareable between scripts.
-7. Allowing you to listen to changes in a non reactive state
+7. Allowing you to listen to changes in a non reactive state 
+8. Allow listening to certain keys in a table
 
-What features StateX will offer in the future:
-1. Allow listening to certain keys in a table
 
 # Whats stopping me from just changing a variable and calling a function when...?
 it unlocks the potential for your projects to become much more powerful and declarative. It gives a clear structure to your projects (better organization), and can make things much easier to work with. Additionally, using modules, you can share the state between scripts.
