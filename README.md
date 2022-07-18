@@ -29,7 +29,7 @@ print(midHealth:get()) -- 25
 Although reactive state management is truly efficient in many cases, StateX offers an API to listen to non reactive states updates.
 
 
-Here is an example to show simulate reactive state management
+Here is an example to show how to simulate reactive state management
 
 ```lua
 local StateX = require(PATH_TO_STATE_X)
