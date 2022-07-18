@@ -5,6 +5,18 @@ StateX is a powerful, yet easy state management solution. It makes use of the re
 # Why use it over other alternatives?
 StateX is a simple, yet a powerful state management library that makes use of reactive state management and general state management to achieve maximum efficiency and customizability, making it easier and simpler to use while acheiving acceptable speed results. In other words, StateX is a lot easier to start with and to maintain while providing truly reactive states as well.
 
+# What features this library offers?
+StateX offers the following:
+1. Simple API to maintain while also powerful 
+2. Consistent API within Reactive/States
+3. Type protection which allows you to track down bugs before shipping them to production
+4. Reactive States to allow you build up bonds between states reactively
+5. reactive/States are shareable between scripts.
+7. Allowing you to listen to changes in a non reactive state
+
+What features StateX will offer in the future:
+1. Allow listening to certain keys in a table
+
 # Reactive State Management
 
 One of the truly unique features about this **stand-alone** state management library is that you can efficiently manage states reactively. To acheive this, StateX offers a reactiveState class which it's constructor accepts a function to call whenever you use it, or in other words, it performs a computation whenever needed rather than updating data once a signal is fired.
