@@ -2,6 +2,9 @@
 
 StateX is a powerful, yet easy state management solution. It makes use of the reactive state management and general state management to let your project manages states efficiently.
 
+# Why use it over other alternatives?
+StateX is a simple, yet a powerful state management library that makes use of reactive state management and general state management to achieve maximum efficiency and customizability, making it easier and simpler to use while acheiving acceptable speed results. In other words, StateX is a lot easier to start with and to maintain while providing truly reactive states as well.
+
 # Reactive State Management
 
 One of the truly unique features about this **stand-alone** state management library is that you can efficiently manage states reactively. To acheive this, StateX offers a reactiveState class which it's constructor accepts a function to call whenever you use it, or in other words, it performs a computation whenever needed rather than updating data once a signal is fired.
