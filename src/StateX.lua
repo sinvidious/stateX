@@ -1,6 +1,6 @@
 local StateX = {}
 
-StateX.state = require(script.state)
-StateX.reactiveState = require(script.reactiveState)
+StateX.reactive = require(script.Reactive)
+StateX.static = require(script.Static)
 
 return StateX
