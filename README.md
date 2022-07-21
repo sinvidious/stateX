@@ -1,6 +1,7 @@
-![stateX-banner](https://user-images.githubusercontent.com/94554616/180267265-e1dd6a4d-41a4-46d7-99c6-f91b721b984e.png)
-____________________________
-StateX is a powerful, yet easy to use state management library built specifically for Roblox and Luau. It makes use of reactive states whom update themselves when needed and static states that represent the more known state management pattern.
+<img src = "https://user-images.githubusercontent.com/94554616/180313029-0712a037-bda4-4ba7-9c9a-af4d9aae1f34.png" width = 450>
+
+
+StateX is a powerful, yet easy to use state management library built specifically for Roblox and Luau. <br> Manage your state using a truly reactive management pattern by using static and reactive states.
 
 # Why use StateX
 StateX provides an amazing state management system that let you program true reactive programming, whether by provding you listeners, or reactive states. 
